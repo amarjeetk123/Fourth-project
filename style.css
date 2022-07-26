@@ -27,13 +27,7 @@
     margin: 0px 25px;
 }
 .button-group{
-    margin-left: 450px;
-}
-.nav-button{
-    height: 32px;
-    width: 110px;
-    border-radius:10px;
-   border: none;
+    margin-left: 400px;
 }
 
 .banner-left{
@@ -61,8 +55,17 @@
      font-size: 15px;
      color: #ffffff;
      background-color: #3944F7 ;
+     transition: 0.4s;
+     border: none;
+     border-radius: 20px;
+}
+.nav-button:hover{
+    margin-left: -10px;
+    transform: scale(1.2);
+    cursor: pointer;
+
 }
 .img{
-    margin-left: 750px;
+    margin-left: 768px;
     margin-top: -500px;
 }
